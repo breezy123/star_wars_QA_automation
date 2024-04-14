@@ -1,0 +1,12 @@
+# this a comment
+! this a comment too
+#Xpaths for Star Wars Movie web app
+Title_Column=//th[normalize-space()='Title']
+Column_Title_Data=//a[@class='underline font-medium']
+The_Empire_Strikes_Back=//a[normalize-space()='The Empire Strikes Back']
+Species=//h1[normalize-space()='Species']
+Wookie=//li[normalize-space()='Wookie']
+The_Phantom_Menace=//a[normalize-space()='The Phantom Menace']
+Planets=//h1[normalize-space()='Planets']
+Camino=//li[normalize-space()='Camino']
+
