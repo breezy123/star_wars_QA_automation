@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BackOffice_Validation">
+    <test name="Windows">
+        <classes>
+<!--            <class name="org.kineticskunk.sikuli.Runners.GUI_validate">-->
+<!--            </class>-->
+            <class name="org.example.runners.RunnerAPIs">
+            </class>
+            <class name="org.example.runners.RunnerUI">
+            </class>
+        </classes>
+    </test>
+</suite>
