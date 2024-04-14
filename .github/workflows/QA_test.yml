@@ -2,7 +2,7 @@ name: Run web tests in Github runner
 
 on:
   push:
-    branches: [ main ]
+    branches: [ develop ]
     
   workflow_dispatch:
     inputs:
