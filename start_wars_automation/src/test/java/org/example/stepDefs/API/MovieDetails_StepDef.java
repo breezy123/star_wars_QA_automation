@@ -94,6 +94,6 @@ public class MovieDetails_StepDef {
                 break;
             }
         }
-        Assert.assertEquals(name1,name2,producerName);
+        Assert.assertNotEquals(name1,name2,producerName);
     }
 }

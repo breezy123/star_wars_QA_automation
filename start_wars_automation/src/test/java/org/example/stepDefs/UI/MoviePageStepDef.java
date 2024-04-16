@@ -23,6 +23,6 @@ public class MoviePageStepDef {
     }
     @Then("I confirm that planet {string} is not part of The_Phantom_Menace movie")
     public void iConfirmThatPlanetIsNotPartOfThe_Phantom_MenaceMovie(String element) {
-        Assert.assertTrue(waits.waitForElementByXpath(pgObs.pageElement(element)));
+        Assert.assertFalse(waits.waitForElementByXpath(pgObs.pageElement(element)));
     }
 }
