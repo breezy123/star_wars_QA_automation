@@ -15,7 +15,7 @@ public class Base {
     public static Waits waits;
 
     public static void initialize(){
-        browserType = SeleniumDriver.BrowserType.MS_EDGE;
+        browserType = SeleniumDriver.BrowserType.CHROME;
         seleniumDriverInstance = new SeleniumDriver(browserType);
         driver = seleniumDriverInstance.getDriver();
 
