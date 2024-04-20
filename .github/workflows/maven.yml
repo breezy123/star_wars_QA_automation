@@ -7,7 +7,15 @@
 # documentation.
 
 name: Java CI with Maven
-
+  - name: Read value from Properties-file
+    id: read_property
+    uses: christian-draeger/read-properties@1.1.1
+    with:
+      path: './src/test/resources/config/config.props'
+      properties: 'the.key.of.a.property the.key.of.another.property'
+  - name: Do something with your bumped release version
+    run: echo ${{ steps.read_property.outputs.the-key-of-a-property }}
+    # will print "the value of 'the.key.of.a.property'"
 on:
   push:
     branches: [ "main" ]
