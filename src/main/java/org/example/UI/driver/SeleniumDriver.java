@@ -58,7 +58,7 @@ public class SeleniumDriver {
 
         this.driver.manage().window().maximize();
         this.driver.manage().deleteAllCookies();
-        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     public void goToWebSite(String url){
