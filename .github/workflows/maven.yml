@@ -32,7 +32,7 @@ jobs:
     - uses: madhead/read-java-properties@latest
       id: all
       with:
-        file: config/config.properties
+        file: gradle.properties
         all: true
     - name: Build with Maven
       run: mvn -B package --file pom.xml
