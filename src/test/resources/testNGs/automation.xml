@@ -3,8 +3,6 @@
 <suite name="BackOffice_Validation">
     <test name="Windows">
         <classes>
-<!--            <class name="org.kineticskunk.sikuli.Runners.GUI_validate">-->
-<!--            </class>-->
             <class name="org.example.runners.RunnerAPIs">
             </class>
 <!--            <class name="org.example.runners.RunnerUI">-->
