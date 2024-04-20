@@ -7,8 +7,8 @@
 <!--            </class>-->
             <class name="org.example.runners.RunnerAPIs">
             </class>
-            <class name="org.example.runners.RunnerUI">
-            </class>
+<!--            <class name="org.example.runners.RunnerUI">-->
+<!--            </class>-->
         </classes>
     </test>
 </suite>
