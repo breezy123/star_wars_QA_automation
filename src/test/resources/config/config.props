@@ -1,9 +1,0 @@
-# this a comment
-! this a comment too
-DBuser=anonymous
-DBpassword=&8djsx
-DBlocation=bigone
-WebDriver_MS_Edge=webdriver.edge.driver
-MS_Edge_Driver=C:\\driver\\msedgedriver.exe
-WebDriverchrome==webdriver.chrome.driver
-Chrome_Driver=C:\\driver\\chromedriver.exe

@@ -3,10 +3,10 @@
 <suite name="BackOffice_Validation">
     <test name="Windows">
         <classes>
-            <class name="org.example.runners.RunnerAPIs">
-            </class>
-<!--            <class name="org.example.runners.RunnerUI">-->
+<!--            <class name="org.example.runners.RunnerAPIs">-->
 <!--            </class>-->
+            <class name="org.example.runners.RunnerUI">
+            </class>
         </classes>
     </test>
 </suite>
